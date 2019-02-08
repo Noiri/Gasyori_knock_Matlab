@@ -7,6 +7,7 @@ Kh = [0 0 0; -1 1 0; 0 0 0];
 J = zero_padding(I, Kv);
 [H, W, C] = size(I);
 
+
 imshow(I);
 
 %vertical
